@@ -1,0 +1,13 @@
+.footer{
+    text-align: center;
+    margin: 0 auto;
+}
+.carousel-inner{
+    height: 400px;
+}
+.carousel-caption{
+    margin-bottom:350px;
+}
+#btn-reg{
+    margin-top: 8px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>评论-DOUBLEBING论坛</title>
+    <link type="text/css"rel="stylesheet"href="bootstrap/css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/button.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/talking.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+</head>
+<body id="body">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">DOUBLEBING论坛讨论区</a>
+            </div>
+        </div>
+    </nav>
+    <!--显示评论区-->
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-info" id="pinglunqu">
+        <!-- Default panel contents -->
+            <div class="panel-heading">评论标题</div>
+            <div class="panel-body">
+                <p>评论内容</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">用户一:&nbsp;&nbsp;第一条评论</li>
+                <li class="list-group-item">用户二:&nbsp;&nbsp;第二条评论</li>
+                <li class="list-group-item">用户三:&nbsp;&nbsp;第三条评论</li>
+                <li class="list-group-item">用户四:&nbsp;&nbsp;第四条评论</li>
+                <li class="list-group-item">用户五:&nbsp;&nbsp;第五条评论</li>
+            </ul>
+        </div>
+
+        <!--分页-->
+        <ul class="pagination pull-right">
+            <li><a href="#">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+        </ul>
+        <br/><br/>
+
+        <span class="glyphicon glyphicon-edit">&nbsp;<label>评论:</label></span>
+
+        <!--评论框-->
+        <textarea class="form-control" rows="3"></textarea><br/>
+        <button class="btn-success btn-lg pull-right"><span class="glyphicon glyphicon-share-alt"></span>提交评论</button>
+        <!--返回上一页-->
+        <nav class="">
+            <ul class="pager">
+                <li class="previous"><a href="index.html"><span aria-hidden="true"></span> 返回上一页</a></li>
+            </ul>
+        </nav>
+
+        <!--底部'-->
+        <div class="footer" id="foot-talk">
+            <hr/>
+            <p>&copy;Company 2015 LeaningPrograming BY DB AND BING</p>
+        </div>
+    </div>
+
+</body>
+</html>
